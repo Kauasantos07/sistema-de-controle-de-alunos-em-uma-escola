@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+	margin: 0;
+	background-image: linear-gradient(to right, #021024, #052659);
+    font-family: "DM Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+h1,h3,h4,th{
+	color: #02457a;
+	font-weight: 800;
+	margin: 0;
+}
+
+th, td{
+	border: none;               
+	 height: 2px;               
+	 background-color: #d6e8ee;  
+	 margin: 10px 0;
+
+}
+
+.container {
+    display: flex;
+    gap: 188px;
+}
+
+.quadrado01 {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    padding: 15px 25px;
+	border-radius: 20px;
+    background-color: #6da5c0;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.quadrado02 {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: #6da5c0;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.linha-estilizada01{
+	border: none;               
+	 height: 2px;               
+	 background-color: #052659;  
+	 margin: 10px 0;
+}
+
+.main-table{
+	width: 800px;
+	margin: 0 auto;
+	background: #6da5c0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px 35px;
+	border-radius: 20px;
+	box-shadow: 0px 10px 40px #00000056;
+}
+
+.container02{
+	display: flex;
+    gap: 360px;
+}
+
+.adicionaraluno{
+	display: inline-block;
+	width: 200px;
+    padding: 10px 10px;
+    background-color: white;
+    color: #6da5c0;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 10px 40px -12px #00000056;
+}
+
+.calculonota{
+	display: inline-block;
+	width: 200px;
+    padding: 10px 10px;
+    background-color: white;
+    color: #6da5c0;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 10px 40px -12px #00000056;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #294d61;
+  border-radius: 25px;
+  padding: 10px 20px;
+  box-shadow: 0px 10px 40px -12px #00000056;
+}
+
+.searchinput{
+  width: 250px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #6da5c0;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.searchinput:focus {
+  border: 2px solid #3f73a1;
+  background-color: #f7f7f7;
+}
+
+.searchinput02 {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #6da5c0;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.searchinput02:hover, .calculonota:hover, .adicionaraluno:hover, .button-edit:hover, .button-trash:hover {
+  background-color: #2e5371;
+}
+
+.button-edit, .button-trash{
+	display: inline-block;
+	width: 20px;
+    padding: 5px 10px;
+    background-color: white;
+    color: #6da5c0;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 10px 40px -12px #00000056;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #6da5c0;
+}
